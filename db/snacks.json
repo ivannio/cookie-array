@@ -1,0 +1,42 @@
+{
+  "snack1" : {
+    "imageUrl" : "https://cdn.shopify.com/s/files/1/0004/8132/9204/products/almond-joy-bar_1_1024x1024.jpg",
+    "name": "Almondjoy",
+    "price": 75,
+    "currentlyStocked": 5,
+    "lifetimeNum": 10,
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "snack2" : {
+    "imageUrl" : "https://images-na.ssl-images-amazon.com/images/I/51yoCLxC7qL._PIbundle-104,TopRight,0,0_SX498SY500SH20_.jpg",
+    "name": "Garden Salsa Sun CHips",
+    "price": 50,
+    "currentlyStocked": 3,
+    "lifetimeNum": 20,
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "snack3" : {
+    "imageUrl" : "https://cdn.shopify.com/s/files/1/0004/8132/9204/products/payday-candy-bar_1024x1024.jpg",
+    "name": "Payday",
+    "price": 100,
+    "currentlyStocked": 15,
+    "lifetimeNum": 30,
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "snack4" : {
+    "imageUrl" : "https://i5.walmartimages.com/asr/5123e582-679f-4568-ba12-2c2012b580fa_1.23a225a6ea9fb3cea6a9e8658fc89763.png",
+    "name": "Nutella & Go",
+    "price": 150,
+    "currentlyStocked": 12,
+    "lifetimeNum": 29,
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "snack5" : {
+    "imageUrl" : "https://vpc-prod-thumbor-public-gcp.boxed.com/unsafe/1024x800/filters:quality(100):max_bytes(200000):fill(white)/http://dcmzfk78s4reh.cloudfront.net/1470590323756.jpg",
+    "name": "Cup Noodles Chicken Flavor",
+    "price": 150,
+    "currentlyStocked": 10,
+    "lifetimeNum": 45,
+    "uid": "109876"
+  }
+}
