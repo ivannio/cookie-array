@@ -1,0 +1,52 @@
+{
+  "postition1": {
+    "position": "A1",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition2": {
+    "position": "A2",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition3": {
+    "position": "A3",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition4": {
+    "position": "B1",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition5": {
+    "position": "B2",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition6": {
+    "position": "B3",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition7": {
+    "position": "C1",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition8": {
+    "position": "C2",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition9": {
+    "position": "C3",
+    "machineId": "machine1",
+    "uid": "ZNLsadMHp6PWgcnsId2QCVG0aX13"
+  },
+  "postition10": {
+    "position": "A1",
+    "machineId": "10987",
+    "uid": "10987"
+  }
+}
