@@ -1,6 +1,6 @@
-import './snacks.scss';
+import './snack.scss';
 
-const snackBuilder = (position) => {
+const makeASnack = (position) => {
   let domString = '';
   if (position.snack.name) {
     domString += `<div class="card col-4">
@@ -22,4 +22,4 @@ const snackBuilder = (position) => {
   return domString;
 };
 
-export default { snackBuilder };
+export default { makeASnack };
