@@ -6,13 +6,13 @@ const baseUrl = apiKeys.firebaseKeys.databaseURL;
 const getMachine = () => new Promise((resolve, reject) => {
   axios.get(`${baseUrl}/machines.json`)
     .then((response) => {
-      const themMachines = response.data;
+      const demMachines = response.data;
       const machines = [];
-      Object.keys(themMachines).forEach((fbId) => {
-        themMachines[fbId].id = fbId;
-        machines.push(themMachines[fbId]);
+      Object.keys(demMachines).forEach((fbId) => {
+        demMachines[fbId].id = fbId;
+        machines.push(demMachines[fbId]);
       });
-      resolve(machines[0]);
+      resolve(machines[0]); // Hard code to only return first machine that comes back
     })
     .catch((error) => reject(error));
 });

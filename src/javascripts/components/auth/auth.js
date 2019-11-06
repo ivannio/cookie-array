@@ -1,21 +1,22 @@
 import $ from 'jquery';
 import firebase from 'firebase/app';
-import utils from '../../helpers/utilities';
-import loginButton from './loginbutton-2.png';
-
 import 'firebase/auth';
+
+import monkeyBut from './loginbutton-2.png';
+import utilities from '../../helpers/utilities';
 
 const signMeIn = () => {
   const provider = new firebase.auth.GoogleAuthProvider();
   firebase.auth().signInWithPopup(provider);
 };
 
-const loadLoginButton = () => {
-  const domString = `<button id="google-auth">
-    <img src="${loginButton}">
+const loginButton = () => {
+  const domString = `<button id="google-auth" class="btn btn-danger">
+    <img src=${monkeyBut} />
   </button>`;
-  utils.printToDom('auth', domString);
+
+  utilities.printToDom('auth', domString);
   $('#google-auth').click(signMeIn);
 };
 
-export default { loadLoginButton };
+export default { loginButton };
