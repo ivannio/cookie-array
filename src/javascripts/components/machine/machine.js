@@ -1,18 +1,23 @@
-import './machine.scss';
+import utilities from '../../helpers/utilities';
 import smush from '../../helpers/data/smush';
-import utils from '../../helpers/utilities';
-import snacks from '../snacks/snacks';
+import snack from '../Snack/snack';
 
 const buildTheMachine = () => {
   smush.getCompleteMachine()
     .then((positions) => {
-      let domString = `<h2>VENDING MACHINE</h2>'
-      <div id="snack-section" class="d-flex flex-wrap>`;
+      // build a dom string - done
+      // h2 that says VENDING MACHINE - done
+      // div with an id = snack-section, class=d-flex flex-wrap - done
+      // forEach over positions - call a component called snacks - done
+      // snacks component should return a bootstrap card - done
+      // printToDom('stock', domString) - done
+      let domString = '<h2>VENDING MACHINE</h2>';
+      domString += '<div id="snack-section" class="d-flex flex-wrap">';
       positions.forEach((position) => {
-        domString += snacks.snackBuilder(position);
+        domString += snack.makeASnack(position);
       });
       domString += '</div>';
-      utils.printToDom('stock', domString);
+      utilities.printToDom('machine', domString);
     })
     .catch((error) => console.error(error));
 };

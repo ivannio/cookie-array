@@ -5,7 +5,7 @@ import apiKeys from './helpers/apiKeys.json';
 import loginButton from './components/auth/auth';
 import authData from './helpers/data/authData';
 import logout from './components/myNavBar/myNavBar';
-import machine from './components/machine/machine';
+import machine from './components/Machine/machine';
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
