@@ -1,17 +1,20 @@
-import 'bootstrap';
-import '../styles/main.scss';
 import firebase from 'firebase';
-import apiKeys from './helpers/apiKeys.json';
-import loginButton from './components/auth/auth';
+import 'bootstrap';
+
+import auth from './components/Auth/auth';
 import authData from './helpers/data/authData';
-import logout from './components/myNavBar/myNavBar';
+import myNavbar from './components/MyNavBar/myNavBar';
 import machine from './components/Machine/machine';
+
+import apiKeys from './helpers/apiKeys.json';
+
+import '../styles/main.scss';
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
   authData.checkLoginStatus();
-  loginButton.loadLoginButton();
-  logout.logoutEvent();
+  auth.loginButton();
+  myNavbar.logoutEvent();
   machine.buildTheMachine();
 };
 
