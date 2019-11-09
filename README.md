@@ -1,1 +1,1 @@
-# cookie-array
+# cookie-array (AKA Vending Machine)
